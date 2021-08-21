@@ -1,0 +1,72 @@
+body
+{
+    background-image: url(img/photo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.box-container
+{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: salmon;
+}
+
+.box
+{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+#ville
+{
+    background-color: rgb(41, 128, 185, 0.75);
+    text-align: center;
+}
+
+#temperature
+{
+    background-color: rgb(43, 78, 101, 0.75);
+}
+
+#humidite
+{
+    background-color: rgb(52, 152, 219, 0.75);
+}
+
+#vent
+{
+    background-color: rgb(143, 146, 154, 0.75);
+}
+
+
+#city
+{
+    background-color: rgb(41, 128, 185, 0.75);
+    text-align: center;
+}
+
+#temp
+{
+    background-color: rgb(43, 78, 101, 0.75);
+}
+
+#humidity
+{
+    background-color: rgb(52, 152, 219, 0.75);
+}
+
+#wind
+{
+    background-color: rgb(143, 146, 154, 0.75);
+}

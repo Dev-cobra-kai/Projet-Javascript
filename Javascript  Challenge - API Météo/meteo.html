@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/6fd9169ed4.js" crossorigin="anonymous"></script>
+
+    <title>METEO API</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 my-3">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputCity" />
+                    </div>
+
+                    <button type="submit" class="btn btn-info btn-block">
+                        Rechercher
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-12 col-sm-7 d-flex justify-content-center my-3">
+                <div class="box-container">
+                    <div id="ville" class="box">
+                        <p>Ville</p>
+                    </div>
+                    <div id="temperature" class="box">
+                        <p>Température</p>
+                    </div>
+                    <div id="humidite" class="box">
+                        <p>Humidité</p>
+                    </div>
+                    <div id="vent" class="box">
+                        <p>Vent</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-5 d-flex justify-content-center my-3">
+                <div class="box-container">
+                    <div id="city" class="box"></div>
+                    <div id="temp" class="box"></div>
+                    <div id="humidity" class="box"></div>
+                    <div id="wind" class="box"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script src="meteo.js"></script>
+
+</body>
+
+</html>
